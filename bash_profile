@@ -11,7 +11,7 @@ parse_git_branch() {
 }
 
 export PS1="\n🐙  \[\033[1;36m\]\W\[\033[32m\]\$(parse_git_branch) \[\033[1;33m\]>> \[\033[00m\]"
-
+export PS1="\n\[\033[1;35m\]\W 🌈 🌈 🌈 \[\033[1;36m\]\$(parse_git_branch)\[\e[00m\] >> "
 
 ### SHIMS ###
 
